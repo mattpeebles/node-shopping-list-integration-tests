@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: htHmtma/4LnMiQerxOwn+1Oy87BHo9j3yfVKS+GF/zfkjHYW7P8+Rb7AWyFpzmqPwjIWO0aeLt4bS8cy9Pj9fPMYI6oV30zMmGe7FvqTlTXyOzR0vs7ATefZbHKkgtIca4gqQGWjvhQ9sVR4nyLH8W7hgS0pZ8/Z9NqmXEWX/M/xNKksiNJBI+vmdQAO6Ogbk/GyQMGSU+APGhlyn1I8M6T69KT9fXHxWYx1Hj30DbXZohqDMSeDTd9QkQ0HkyJJM4jQumVnyVwSxzWPaH35Cqa2c8G5U8PJCTTVDvQytpFFq2gRfcUgx/hLMG9BXjkR4428yOctC/Q9tjOecyzB9xe0YMFQK0w381bpNrfPX+kWaifl70Adj3ApmqTtmehYbjh5kscVY348t4GZjEOgXvdL7jvX80yF4VzCVbabQkg4GDIlPlro+QU8lRxj11Nz+5G0r+oaf+qgkls77oXhDzcDQB5b8VG4L86XVxv/K7EuybnQJUQ54FXL+e7zo7XgS691Za2jWAebL3xrnbZSDal15uCjSRGTwoHK+GMC5Jhxy4RjEg7zeIUONoCvjFZ1jEXQswtXxiabdVxfzRVtsuSckaTlh15Q+agsUe55PSLlYQyU03pQAWVpWEdSDs8UY1ncaUrufNjhVdm1qMH4YA9skh+2hbhuC1ZwmV7msrA=
+  app: https://fierce-thicket-59008.herokuapp.com/
+  on:
+    repo: mattpeebles/node-shopping-list-integration-tests
